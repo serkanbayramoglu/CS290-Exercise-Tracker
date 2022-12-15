@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.App {
+  text-align: center;
+  border: 1mm solid  #b8c9e4;
+  background-color: rgb(248, 252, 218);
+  margin: 10px;
+  min-width: 13cm;
+  height: 18cm;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: black;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: black;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #81a6df;
+  color: white;
+}
+
+td, th:first-child{text-align: left;}
+
+footer {
+  margin-top: auto;
+  text-align: middle;
+  vertical-align: bottom;
+}
+
+button{
+  background-color: #81a6df;
+  color: white;
+  padding: 8px;
+}
+
+input, select {
+  margin-right: 2px;
+  padding: 8px;
+}
+
+a {
+  color:  #0c66ee;
+  padding: 8px;
+  font-size:20px;
+  font-weight: 600;
+}

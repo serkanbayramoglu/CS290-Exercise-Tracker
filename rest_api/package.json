@@ -1,0 +1,17 @@
+{
+  "name": "bayramos_rest",
+  "version": "1.0.0",
+  "description": "rest api for assignment6 CS290",
+  "main": "rest_controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon rest_controller.mjs"
+  },
+  "author": "Serkan Bayramoglu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
